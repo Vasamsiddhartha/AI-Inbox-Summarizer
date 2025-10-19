@@ -1,14 +1,13 @@
-﻿# Project ignores
-data/raw/
-data/daily/
-state/
+ # Ignore credentials and secrets
+*.json
+*.jsonl
+data/
+scripts/download_model.py
+.streamlit/
+checkpoints/
+__pycache__/
 models/
-db/
+*.csv
+*.env
 logs/
-.venv/
-venv/
-*.gguf
-*.db
-*.sqlite
-token.json
-credentials.json
+*.log

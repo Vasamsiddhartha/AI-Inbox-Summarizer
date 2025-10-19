@@ -2,11 +2,11 @@ from huggingface_hub import hf_hub_download
 import os
 
 # 🔑 Set your Hugging Face token here (get it from https://huggingface.co/settings/tokens)
-HF_TOKEN = "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"
+HF_TOKEN = "dfghjk"
 
 # Repository and filename
-repo_id = "TheBloke/Mistral-7B-Instruct-v0.2-GGUF"
-filename = "mistral-7b-instruct-v0.2.Q4_0.gguf"
+repo_id = "Choosen model repo id"
+filename = "Your guff file name"
 
 # Where to store the model locally
 out_dir = os.path.join(os.getcwd(), "models")

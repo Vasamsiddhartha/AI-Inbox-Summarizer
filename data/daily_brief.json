@@ -1,0 +1,109 @@
+{
+  "headline": "Several recent transactions on various accounts - verify and block unauthorised ones",
+  "brief": "Several recent transactions have been detected on your Ekartl, JK, JX, Axis Bank accounts. Verify all transactions and SMS 'BLOCKUPI' to the respective bank numbers if any are unauthorised. (…XX4634)",
+  "bullets": [
+    "INR 51 debited — B36gMeMYf — Ekartl — 2025-10-15T17:18:49",
+    "Rs.0.8 debited — JX-NSESMS — JX — 2025-10-13T19:11:53",
+    "INR 1200.00 debited — c no. XX4634 14-10-25 — Axis Bank — 2025-10-14T16:32:46",
+    "INR 5000.00 debited — c no. XX4634 13-10-25 — Axis Bank — 2025-10-13T15:19:17",
+    "Transaction pending — c no. XX4634 — Axis Bank — 2025-10-14T16:32:46",
+    "INR 51 pending — B36gMeMYf — Ekartl — 2025-10-15T12:34:41",
+    "[HIGH] VA-EKARTL-S | (none) | T: 2025-10-16T11:13:52+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "Rs.51 debited — B36gMeMYf — Rs.51",
+    "Rs.0.8 debited",
+    "INR 1200.00 debited — c no. XX4634 14-10-25 — INR 1200.00",
+    "INR 5000.00 debited — c no. XX4634 13-10-25 — INR 5000.00",
+    "[HIGH] VK-EKARTL-S | (none) | T: 2025-10-15T12:34:41+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[LOW] VM-EKARTL-S | (none) | T: 2025-10-15T12:33:32+00:00 | Contains verification code (OTP)",
+    "INR 17700.00 debited — VASAM  SIDDHARTHA — INR 17700.00",
+    "INR 2.00 debited — c has been debited towards Google for INR 2.00 on 13-10-25. — INR 2.00",
+    "[HIGH] VM-EKARTL-S | (none) | T: 2025-10-15T09:32:12+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "Rs.51 debited — B3fmLece0 — Rs.51",
+    "[HIGH] JA-DOTGOI-G | (none) | M: play.google.com | T: 2025-10-15T12:10:14+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[HIGH] JA-JioPay-S | (none) | M: tiny.jio.com | T: 2025-10-16T17:11:33+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "Rs 0 debited — 2025 reported your Fund bal Rs 0.800 & Securities bal 0. Thi — Rs 0"
+  ],
+  "actions_from_summarizer": [
+    "Verify all transactions in your Ekartl, JK, JX, Axis Bank apps (ASAP)",
+    "SMS 'BLOCKUPI' to the respective bank numbers if you find any unauthorised transactions"
+  ],
+  "selected_count": 20,
+  "selected_lines": [
+    "[HIGH] VA-EKARTL-S | (none) | T: 2025-10-16T11:13:52+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[HIGH] JK-620040-P | (none) | AMT: Rs.51 | M: B36gMeMYf | T: 2025-10-15T17:18:49+00:00 | ACTION_HINT: Verify transaction details and report if unauthorised.",
+    "[HIGH] JX-NSESMS-S | (none) | AMT: Rs.0.8 | T: 2025-10-13T19:11:53+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[HIGH] AD-AXISBK-S | (none) | AMT: INR 1200.00 | M: c no. XX4634 14-10-25 | T: 2025-10-14T16:32:46+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[HIGH] AD-AXISBK-S | (none) | AMT: INR 5000.00 | M: c no. XX4634 13-10-25 | T: 2025-10-13T15:19:17+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[HIGH] VK-EKARTL-S | (none) | T: 2025-10-15T12:34:41+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised."
+  ],
+  "extracted_actions": [
+    {
+      "id": "sms_sms_6",
+      "action": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+      "due": null,
+      "type": "todo",
+      "source": "existing",
+      "priority_label": "high",
+      "confidence": 0.0
+    },
+    {
+      "id": "sms_sms_7",
+      "action": "Verify transaction details and report if unauthorised.",
+      "due": null,
+      "type": "todo",
+      "source": "existing",
+      "priority_label": "high",
+      "confidence": 0.0
+    },
+    {
+      "id": "mail_199d61c49cce5c57",
+      "action": "Review booking / invoice / payment details",
+      "due": null,
+      "type": "todo",
+      "source": "existing",
+      "priority_label": "high",
+      "confidence": 0.0
+    },
+    {
+      "id": "sms_sms_9",
+      "action": "Use / note verification code (OTP) from message",
+      "due": null,
+      "type": "security",
+      "source": "rule",
+      "priority_label": "low",
+      "confidence": 0.0
+    },
+    {
+      "id": "sms_sms_9",
+      "action": "Check shipment for damages, duplicates or missing items",
+      "due": null,
+      "type": "todo",
+      "source": "llm_verify",
+      "priority_label": "low",
+      "confidence": 0.0
+    }
+  ],
+  "_raw_summarizer_text": "\n{\n  \"headline\": \"Several recent transactions on various accounts - verify and block unauthorised ones\",\n  \"brief\": \"Several recent transactions have been detected on your Ekartl, JK, JX, Axis Bank accounts. Verify all transactions and SMS 'BLOCKUPI' to the respective bank numbers if any are unauthorised. (…XX4634)\",\n  \"bullets\": [\n    \"INR 51 debited — B36gMeMYf — Ekartl — 2025-10-15T17:18:49\",\n    \"Rs.0.8 debited — JX-NSESMS — JX — 2025-10-13T19:11:53\",\n    \"INR 1200.00 debited — c no. XX4634 14-10-25 — Axis Bank — 2025-10-14T16:32:46\",\n    \"INR 5000.00 debited — c no. XX4634 13-10-25 — Axis Bank — 2025-10-13T15:19:17\",\n    \"Transaction pending — c no. XX4634 — Axis Bank — 2025-10-14T16:32:46\",\n    \"INR 51 pending — B36gMeMYf — Ekartl — 2025-10-15T12:34:41\"\n  ],\n  \"actions\": [\n    \"Verify all transactions in your Ekartl, JK, JX, Axis Bank apps (ASAP)\",\n    \"SMS 'BLOCKUPI' to the respective bank numbers if you find any unauthorised transactions\"\n  ]\n}",
+  "all_itemized_lines": [
+    "[HIGH] VA-EKARTL-S | (none) | T: 2025-10-16T11:13:52+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "Rs.51 debited — B36gMeMYf — Rs.51",
+    "Rs.0.8 debited",
+    "INR 1200.00 debited — c no. XX4634 14-10-25 — INR 1200.00",
+    "INR 5000.00 debited — c no. XX4634 13-10-25 — INR 5000.00",
+    "[HIGH] VK-EKARTL-S | (none) | T: 2025-10-15T12:34:41+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[LOW] VM-EKARTL-S | (none) | T: 2025-10-15T12:33:32+00:00 | Contains verification code (OTP)",
+    "INR 17700.00 debited — VASAM  SIDDHARTHA — INR 17700.00",
+    "INR 2.00 debited — c has been debited towards Google for INR 2.00 on 13-10-25. — INR 2.00",
+    "[HIGH] VM-EKARTL-S | (none) | T: 2025-10-15T09:32:12+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "Rs.51 debited — B3fmLece0 — Rs.51",
+    "[HIGH] JA-DOTGOI-G | (none) | M: play.google.com | T: 2025-10-15T12:10:14+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[HIGH] JA-JioPay-S | (none) | M: tiny.jio.com | T: 2025-10-16T17:11:33+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "Rs 0 debited — 2025 reported your Fund bal Rs 0.800 & Securities bal 0. Thi — Rs 0",
+    "[HIGH] VM-EKARTL-S | (none) | T: 2025-10-15T12:32:14+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[HIGH] Medium Daily Digest <noreply@medium.com> | I Deleted My Second Brain | Joan Westenberg in Westenberg | M: medium.com | T: 2025-10-12T01:50:00+00:00 | ACTION_HINT: Review booking / invoice / payment details",
+    "INR 2.00 debited — c no. XX4634 13-10-25 — INR 2.00",
+    "INR 5000.00 debited — c no. XX4634 12-10-25 — INR 5000.00",
+    "[HIGH] JM-JIOMRT-S | (none) | M: jm101.com | T: 2025-10-13T18:57:57+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "[HIGH] VK-EKARTL-S | (none) | T: 2025-10-15T09:32:08+00:00 | ACTION_HINT: Verify transaction; SMS BLOCKUPI if unauthorised."
+  ]
+}

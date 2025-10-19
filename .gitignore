@@ -1,0 +1,14 @@
+﻿# Project ignores
+data/raw/
+data/daily/
+state/
+models/
+db/
+logs/
+.venv/
+venv/
+*.gguf
+*.db
+*.sqlite
+token.json
+credentials.json

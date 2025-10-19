@@ -1,0 +1,236 @@
+{
+  "199edfbabeff1446": {
+    "category": "notification",
+    "priority_label": "medium",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199edf905f8869e8": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199edf3bd24ac2ff": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199ec8618e6b2a98": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199eab5b552d0faa": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e9983221ceda8": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e8d2590cc191d": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e58f5732e70e2": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e4d42681cef0e": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e3af4ba41fbfc": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e39ff0660204a": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e3341e14a1c56": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e2d2a6279d23f": {
+    "category": "work",
+    "priority_label": "medium",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "llm",
+    "confidence": 0.95,
+    "decision_path": "llm"
+  },
+  "199e2162f511936a": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199e069032f8ff18": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199df7a7c778d0e1": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199df6382eaddf92": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199de3fd0d23001f": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199ddaba5913ca3b": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199db42a2e5158d3": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199da2d7a6c580d8": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199d9a788a73f503": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199d6d0590acd216": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199d61c49cce5c57": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Review booking / invoice / payment details",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199d22cd67605240": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "199d0f5e9f49a261": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  }
+}

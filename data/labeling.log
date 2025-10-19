@@ -1,0 +1,15 @@
+2025-09-30 22:54:34,508 - INFO - Loading model from C:\Users\siddhartha\gmail_llama_pipeline\models\models--TheBloke--Mistral-7B-Instruct-v0.2-GGUF\snapshots\3a6fbf4a41a1d52e415a4958cde6856d34b2db93\mistral-7b-instruct-v0.2.Q4_0.gguf (this may take a while)...
+2025-09-30 22:54:48,428 - INFO - Model loaded successfully
+2025-09-30 22:54:48,428 - INFO - Processing emails from emails.jsonl
+2025-09-30 22:58:12,690 - INFO - Loading model from C:\Users\siddhartha\gmail_llama_pipeline\models\models--TheBloke--Mistral-7B-Instruct-v0.2-GGUF\snapshots\3a6fbf4a41a1d52e415a4958cde6856d34b2db93\mistral-7b-instruct-v0.2.Q4_0.gguf (this may take a while)...
+2025-09-30 22:58:15,720 - INFO - Model loaded successfully
+2025-09-30 22:58:15,721 - INFO - Processing emails from emails.jsonl
+2025-09-30 23:07:37,331 - INFO - Loading model from C:\Users\siddhartha\gmail_llama_pipeline\models\models--TheBloke--Mistral-7B-Instruct-v0.2-GGUF\snapshots\3a6fbf4a41a1d52e415a4958cde6856d34b2db93\mistral-7b-instruct-v0.2.Q4_0.gguf (this may take a while)...
+2025-09-30 23:07:40,035 - INFO - Model loaded successfully
+2025-09-30 23:07:40,035 - INFO - Processing emails from emails.jsonl
+2025-09-30 23:07:40,060 - INFO - Reached max_messages limit: 50
+2025-09-30 23:07:40,063 - INFO - Total processed: 50 (Rules: 0, LLM: 0)
+2025-09-30 23:07:40,063 - INFO - DRY RUN - Showing first 10 rows:
+2025-09-30 23:14:40,497 - INFO - Loading model from C:\Users\siddhartha\gmail_llama_pipeline\models\models--TheBloke--Mistral-7B-Instruct-v0.2-GGUF\snapshots\3a6fbf4a41a1d52e415a4958cde6856d34b2db93\mistral-7b-instruct-v0.2.Q4_0.gguf (this may take a while)...
+2025-09-30 23:14:50,095 - INFO - Model loaded successfully
+2025-09-30 23:14:50,096 - INFO - Processing emails from emails.jsonl

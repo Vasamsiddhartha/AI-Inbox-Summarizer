@@ -1,0 +1,452 @@
+{
+  "sms_1": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_2": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_3": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_4": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_5": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_6": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_7": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction details and report if unauthorised.",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_8": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_9": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_10": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_11": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_12": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_13": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_14": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_15": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_16": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_17": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_18": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "llm",
+    "confidence": 0.85,
+    "decision_path": "llm"
+  },
+  "sms_19": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_20": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_21": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_22": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_23": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_24": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_25": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_26": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_27": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_28": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_29": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_30": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_31": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_32": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_33": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "llm",
+    "confidence": 0.95,
+    "decision_path": "llm"
+  },
+  "sms_34": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_35": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_36": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_37": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_38": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_39": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_40": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_41": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_42": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_43": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_44": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_45": {
+    "category": "promotion",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_46": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction details and report if unauthorised.",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  },
+  "sms_47": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_48": {
+    "category": "transaction",
+    "priority_label": "high",
+    "action_required": 1,
+    "action_text": "Verify transaction; SMS BLOCKUPI if unauthorised.",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_49": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_agree",
+    "confidence": 0.98,
+    "decision_path": "rule+llm_agree"
+  },
+  "sms_50": {
+    "category": "notification",
+    "priority_label": "low",
+    "action_required": 0,
+    "action_text": "",
+    "label_source": "rule+llm_disagree",
+    "confidence": 0.92,
+    "decision_path": "rule+llm_disagree"
+  }
+}

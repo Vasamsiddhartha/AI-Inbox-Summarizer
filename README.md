@@ -3,7 +3,9 @@ This project is my end-to-end AI(automated multi-source) Inbox Summarization sys
 It combines traditional rule-based NLP, local LLM inference, and a Streamlit visualization dashboard, integrating data ingestion, labeling, summarization, and daily brief visualization—all built from scratch.
 
 Features
+
 --- > Automated Data Collection: Continuously fetches emails directly via Gmail API, and imports SMS backups from Android XML files without manual intervention.
+
 --- > Multi-source ingestion: Parse Gmail (API) and SMS (XML) into a unified format.
 
 --- > Hybrid message labeling: Rule-based and local LLM (LoRA fine-tuned) classification for message type and priority.
@@ -51,10 +53,15 @@ This ingests, labels, summarizes, and opens the Streamlit dashboard at
 📦 Outputs :
 
 ====> data/merged_messages.csv — merged, deduplicated inbox dataset
+
 ====> data/combined_labeled.csv — hybrid-labeled, categorized/priority-tagged set
+
 ====> data/daily/daily_brief_YYYYMMDD.json — generated daily summary (archived by date)
+
 ====> daily_brief.json — pointer to the latest JSON summary
+
 ====>logs/ — run logs of all pipeline executions
+
 ====> .custom_summarizer_model/ — fine-tuned LLM model for your summaries
 
 🖥️ Streamlit Dashboard : 

@@ -63,6 +63,15 @@ This ingests, labels, summarizes, and opens the Streamlit dashboard at
 ====>logs/ — run logs of all pipeline executions
 
 ====> .custom_summarizer_model/ — fine-tuned LLM model for your summaries
+Here, I WAS SHARING ONE OF MY DAILY BREIF :
+
+
+
+
+
+https://github.com/user-attachments/assets/0d5e46c8-cd66-4ccd-9612-22f1d560d965
+
+
 
 🖥️ Streamlit Dashboard : 
 After every successful run, your local browser will auto-open the dashboard at: http://localhost:8501
